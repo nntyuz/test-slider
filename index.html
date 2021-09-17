@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Slider</title>
+  <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="./css/fonts.css">
+  <link rel="stylesheet" href="./css/normalize.css">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+  <main>
+    <div class="section flex a-center j-between">
+      <a class="section-title flex a-center j-between" href="#">
+        Хиты продаж
+        <svg width="8" height="11" viewBox="0 0 8 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path
+            d="M0.961975 1.78L4.68197 5.5L0.961975 9.22L2.14098 10.399L5.86097 6.679L7.03997 5.5L5.86097 4.321L2.14098 0.600998L0.961975 1.78Z"
+            fill="#444444" />
+        </svg>
+      </a>
+      <div class="flex">
+        <button class="slider-button prev"><svg width="8" height="11" viewBox="0 0 8 11" fill="none"
+            xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M0.961975 1.78L4.68197 5.5L0.961975 9.22L2.14098 10.399L5.86097 6.679L7.03997 5.5L5.86097 4.321L2.14098 0.600998L0.961975 1.78Z"
+              fill="#444444" />
+          </svg></button>
+        <button class="slider-button next"><svg width="8" height="11" viewBox="0 0 8 11" fill="none"
+            xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M0.961975 1.78L4.68197 5.5L0.961975 9.22L2.14098 10.399L5.86097 6.679L7.03997 5.5L5.86097 4.321L2.14098 0.600998L0.961975 1.78Z"
+              fill="#444444" />
+          </svg></button>
+      </div>
+    </div>
+    <div class="slider-block">
+      <div class="swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide product-card">
+            <div class="tags">
+              <div class="tag green">
+                Новинка
+              </div>
+              <div class="tag orange">
+                Хит продаж
+              </div>
+            </div>
+            <div class="img-block">
+              <img src="./assets/img/cond-1.png" alt="img-block">
+            </div>
+            <div class="title-block">
+              <div class="class">
+                Удаленное управление
+              </div>
+              <div class="name">
+                Кондиционер №1
+              </div>
+              <div class="stars-block">
+                <svg width="16" height="16" viewBox="0 0 16 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M8 0L9.79611 5.52786H15.6085L10.9062 8.94427L12.7023 14.4721L8 11.0557L3.29772 14.4721L5.09383 8.94427L0.391548 5.52786H6.20389L8 0Z"
+                    fill="#00ADEF" />
+                </svg>
+                <div class="stars">
+                  4.5
+                </div>
+              </div>
+            </div>
+            <div class="prices">
+              <div class="current-price">
+                57 990 руб.
+              </div>
+              <div class="prev-price">
+                66 000 руб.
+              </div>
+            </div>
+            <div class="flex">
+              <button class="cart-button">В корзину</button>
+              <div class="sub-buttons-container flex">
+                <button class="sub-button">
+                  <svg width="22" height="19" viewBox="0 0 22 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M11.5284 18.6423L19.4931 10.5874C21.7074 8.29786 21.7074 4.75933 19.4931 2.46981C18.4427 1.38746 16.9708 0.771622 15.4287 0.769339C14.0236 0.770898 12.6764 1.28126 11.6525 2.18965C11.5518 2.27899 11.4542 2.37218 11.36 2.46912L11.0015 2.83232L10.6429 2.46912C10.5465 2.36962 10.447 2.27445 10.3448 2.18362C8.23352 0.308414 4.9381 0.284066 2.79519 2.19279C2.69564 2.2815 2.59948 2.37364 2.50695 2.46912C0.292525 4.75888 0.292525 8.29762 2.50695 10.5874L10.4746 18.6423C10.7502 18.9213 11.2096 18.9333 11.5006 18.669C11.5101 18.6604 11.5194 18.6515 11.5284 18.6423ZM3.16703 9.9421L11.0015 17.8624L18.833 9.94212C20.6976 8.01057 20.6967 5.04276 18.8302 3.11223C17.958 2.21367 16.7271 1.69466 15.4286 1.69242C14.1284 1.69418 12.8958 2.21321 12.022 3.11243L12.0169 3.11762L11.0015 4.14626L9.98006 3.11157C8.23868 1.31486 5.2885 1.20825 3.40929 2.88195M3.16703 9.9421C1.30223 8.01019 1.30327 5.04195 3.17014 3.11118C3.24667 3.03224 3.32653 2.95571 3.40929 2.88195"
+                    fill="#444444" />
+                  </svg>
+                </button>
+                <button class="sub-button">
+                  <svg width="18" height="17" viewBox="0 0 18 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M0 0.538467L18 0.538467V1.46154H0V0.538467ZM0 5.53847H18V6.46154H0V5.53847ZM14.9615 13.4615V16.5H14.0385V13.4615H11V12.5385H14.0385V9.50001H14.9615V12.5385H18V13.4615H14.9615ZM0 10.5385H9V11.4615H0V10.5385ZM0 15.5385H9V16.4615H0V15.5385Z"
+                    fill="#444444" />
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide product-card">
+            <div class="tags">
+              <div class="tag green">
+                Новинка
+              </div>
+              <div class="tag orange">
+                Хит продаж
+              </div>
+            </div>
+            <div class="img-block">
+              <img src="./assets/img/cond-2.png" alt="img-block">
+            </div>
+            <div class="title-block">
+              <div class="class">
+                Удаленное управление
+              </div>
+              <div class="name">
+                Кондиционер №1
+              </div>
+              <div class="stars-block">
+                <svg width="16" height="16" viewBox="0 0 16 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M8 0L9.79611 5.52786H15.6085L10.9062 8.94427L12.7023 14.4721L8 11.0557L3.29772 14.4721L5.09383 8.94427L0.391548 5.52786H6.20389L8 0Z"
+                    fill="#00ADEF" />
+                </svg>
+                <div class="stars">
+                  4.5
+                </div>
+              </div>
+            </div>
+            <div class="prices">
+              <div class="current-price">
+                57 990 руб.
+              </div>
+              <div class="prev-price">
+                66 000 руб.
+              </div>
+            </div>
+            <div class="flex">
+              <button class="cart-button">В корзину</button>
+              <div class="sub-buttons-container flex">
+                <button class="sub-button">
+                  <svg width="22" height="19" viewBox="0 0 22 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M11.5284 18.6423L19.4931 10.5874C21.7074 8.29786 21.7074 4.75933 19.4931 2.46981C18.4427 1.38746 16.9708 0.771622 15.4287 0.769339C14.0236 0.770898 12.6764 1.28126 11.6525 2.18965C11.5518 2.27899 11.4542 2.37218 11.36 2.46912L11.0015 2.83232L10.6429 2.46912C10.5465 2.36962 10.447 2.27445 10.3448 2.18362C8.23352 0.308414 4.9381 0.284066 2.79519 2.19279C2.69564 2.2815 2.59948 2.37364 2.50695 2.46912C0.292525 4.75888 0.292525 8.29762 2.50695 10.5874L10.4746 18.6423C10.7502 18.9213 11.2096 18.9333 11.5006 18.669C11.5101 18.6604 11.5194 18.6515 11.5284 18.6423ZM3.16703 9.9421L11.0015 17.8624L18.833 9.94212C20.6976 8.01057 20.6967 5.04276 18.8302 3.11223C17.958 2.21367 16.7271 1.69466 15.4286 1.69242C14.1284 1.69418 12.8958 2.21321 12.022 3.11243L12.0169 3.11762L11.0015 4.14626L9.98006 3.11157C8.23868 1.31486 5.2885 1.20825 3.40929 2.88195M3.16703 9.9421C1.30223 8.01019 1.30327 5.04195 3.17014 3.11118C3.24667 3.03224 3.32653 2.95571 3.40929 2.88195"
+                    fill="#444444" />
+                  </svg>
+                </button>
+                <button class="sub-button">
+                  <svg width="18" height="17" viewBox="0 0 18 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M0 0.538467L18 0.538467V1.46154H0V0.538467ZM0 5.53847H18V6.46154H0V5.53847ZM14.9615 13.4615V16.5H14.0385V13.4615H11V12.5385H14.0385V9.50001H14.9615V12.5385H18V13.4615H14.9615ZM0 10.5385H9V11.4615H0V10.5385ZM0 15.5385H9V16.4615H0V15.5385Z"
+                    fill="#444444" />
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide product-card">
+            <div class="tags">
+              <div class="tag green">
+                Новинка
+              </div>
+              <div class="tag orange">
+                Хит продаж
+              </div>
+            </div>
+            <div class="img-block">
+              <img src="./assets/img/cond-3.png" alt="img-block">
+            </div>
+            <div class="title-block">
+              <div class="class">
+                Удаленное управление
+              </div>
+              <div class="name">
+                Кондиционер №1
+              </div>
+              <div class="stars-block">
+                <svg width="16" height="16" viewBox="0 0 16 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M8 0L9.79611 5.52786H15.6085L10.9062 8.94427L12.7023 14.4721L8 11.0557L3.29772 14.4721L5.09383 8.94427L0.391548 5.52786H6.20389L8 0Z"
+                    fill="#00ADEF" />
+                </svg>
+                <div class="stars">
+                  4.5
+                </div>
+              </div>
+            </div>
+            <div class="prices">
+              <div class="current-price">
+                57 990 руб.
+              </div>
+              <div class="prev-price">
+                66 000 руб.
+              </div>
+            </div>
+            <div class="flex">
+              <button class="cart-button">В корзину</button>
+              <div class="sub-buttons-container flex">
+                <button class="sub-button">
+                  <svg width="22" height="19" viewBox="0 0 22 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M11.5284 18.6423L19.4931 10.5874C21.7074 8.29786 21.7074 4.75933 19.4931 2.46981C18.4427 1.38746 16.9708 0.771622 15.4287 0.769339C14.0236 0.770898 12.6764 1.28126 11.6525 2.18965C11.5518 2.27899 11.4542 2.37218 11.36 2.46912L11.0015 2.83232L10.6429 2.46912C10.5465 2.36962 10.447 2.27445 10.3448 2.18362C8.23352 0.308414 4.9381 0.284066 2.79519 2.19279C2.69564 2.2815 2.59948 2.37364 2.50695 2.46912C0.292525 4.75888 0.292525 8.29762 2.50695 10.5874L10.4746 18.6423C10.7502 18.9213 11.2096 18.9333 11.5006 18.669C11.5101 18.6604 11.5194 18.6515 11.5284 18.6423ZM3.16703 9.9421L11.0015 17.8624L18.833 9.94212C20.6976 8.01057 20.6967 5.04276 18.8302 3.11223C17.958 2.21367 16.7271 1.69466 15.4286 1.69242C14.1284 1.69418 12.8958 2.21321 12.022 3.11243L12.0169 3.11762L11.0015 4.14626L9.98006 3.11157C8.23868 1.31486 5.2885 1.20825 3.40929 2.88195M3.16703 9.9421C1.30223 8.01019 1.30327 5.04195 3.17014 3.11118C3.24667 3.03224 3.32653 2.95571 3.40929 2.88195"
+                    fill="#444444" />
+                  </svg>
+                </button>
+                <button class="sub-button">
+                  <svg width="18" height="17" viewBox="0 0 18 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M0 0.538467L18 0.538467V1.46154H0V0.538467ZM0 5.53847H18V6.46154H0V5.53847ZM14.9615 13.4615V16.5H14.0385V13.4615H11V12.5385H14.0385V9.50001H14.9615V12.5385H18V13.4615H14.9615ZM0 10.5385H9V11.4615H0V10.5385ZM0 15.5385H9V16.4615H0V15.5385Z"
+                    fill="#444444" />
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide product-card">
+            <div class="tags">
+              <div class="tag green">
+                Новинка
+              </div>
+              <div class="tag orange">
+                Хит продаж
+              </div>
+            </div>
+            <div class="img-block">
+              <img src="./assets/img/cond-4.png" alt="img-block">
+            </div>
+            <div class="title-block">
+              <div class="class">
+                Удаленное управление
+              </div>
+              <div class="name">
+                Кондиционер №1
+              </div>
+              <div class="stars-block">
+                <svg width="16" height="16" viewBox="0 0 16 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M8 0L9.79611 5.52786H15.6085L10.9062 8.94427L12.7023 14.4721L8 11.0557L3.29772 14.4721L5.09383 8.94427L0.391548 5.52786H6.20389L8 0Z"
+                    fill="#00ADEF" />
+                </svg>
+                <div class="stars">
+                  4.5
+                </div>
+              </div>
+            </div>
+            <div class="prices">
+              <div class="current-price">
+                57 990 руб.
+              </div>
+              <div class="prev-price">
+                66 000 руб.
+              </div>
+            </div>
+            <div class="flex">
+              <button class="cart-button">В корзину</button>
+              <div class="sub-buttons-container flex">
+                <button class="sub-button">
+                  <svg width="22" height="19" viewBox="0 0 22 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M11.5284 18.6423L19.4931 10.5874C21.7074 8.29786 21.7074 4.75933 19.4931 2.46981C18.4427 1.38746 16.9708 0.771622 15.4287 0.769339C14.0236 0.770898 12.6764 1.28126 11.6525 2.18965C11.5518 2.27899 11.4542 2.37218 11.36 2.46912L11.0015 2.83232L10.6429 2.46912C10.5465 2.36962 10.447 2.27445 10.3448 2.18362C8.23352 0.308414 4.9381 0.284066 2.79519 2.19279C2.69564 2.2815 2.59948 2.37364 2.50695 2.46912C0.292525 4.75888 0.292525 8.29762 2.50695 10.5874L10.4746 18.6423C10.7502 18.9213 11.2096 18.9333 11.5006 18.669C11.5101 18.6604 11.5194 18.6515 11.5284 18.6423ZM3.16703 9.9421L11.0015 17.8624L18.833 9.94212C20.6976 8.01057 20.6967 5.04276 18.8302 3.11223C17.958 2.21367 16.7271 1.69466 15.4286 1.69242C14.1284 1.69418 12.8958 2.21321 12.022 3.11243L12.0169 3.11762L11.0015 4.14626L9.98006 3.11157C8.23868 1.31486 5.2885 1.20825 3.40929 2.88195M3.16703 9.9421C1.30223 8.01019 1.30327 5.04195 3.17014 3.11118C3.24667 3.03224 3.32653 2.95571 3.40929 2.88195"
+                    fill="#444444" />
+                  </svg>
+                </button>
+                <button class="sub-button">
+                  <svg width="18" height="17" viewBox="0 0 18 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M0 0.538467L18 0.538467V1.46154H0V0.538467ZM0 5.53847H18V6.46154H0V5.53847ZM14.9615 13.4615V16.5H14.0385V13.4615H11V12.5385H14.0385V9.50001H14.9615V12.5385H18V13.4615H14.9615ZM0 10.5385H9V11.4615H0V10.5385ZM0 15.5385H9V16.4615H0V15.5385Z"
+                    fill="#444444" />
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide product-card">
+            <div class="tags">
+              <div class="tag green">
+                Новинка
+              </div>
+              <div class="tag orange">
+                Хит продаж
+              </div>
+            </div>
+            <div class="img-block">
+              <img src="./assets/img/cond-1.png" alt="img-block">
+            </div>
+            <div class="title-block">
+              <div class="class">
+                Удаленное управление
+              </div>
+              <div class="name">
+                Кондиционер №1
+              </div>
+              <div class="stars-block">
+                <svg width="16" height="16" viewBox="0 0 16 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M8 0L9.79611 5.52786H15.6085L10.9062 8.94427L12.7023 14.4721L8 11.0557L3.29772 14.4721L5.09383 8.94427L0.391548 5.52786H6.20389L8 0Z"
+                    fill="#00ADEF" />
+                </svg>
+                <div class="stars">
+                  4.5
+                </div>
+              </div>
+            </div>
+            <div class="prices">
+              <div class="current-price">
+                57 990 руб.
+              </div>
+              <div class="prev-price">
+                66 000 руб.
+              </div>
+            </div>
+            <div class="flex">
+              <button class="cart-button">В корзину</button>
+              <div class="sub-buttons-container flex">
+                <button class="sub-button">
+                  <svg width="22" height="19" viewBox="0 0 22 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M11.5284 18.6423L19.4931 10.5874C21.7074 8.29786 21.7074 4.75933 19.4931 2.46981C18.4427 1.38746 16.9708 0.771622 15.4287 0.769339C14.0236 0.770898 12.6764 1.28126 11.6525 2.18965C11.5518 2.27899 11.4542 2.37218 11.36 2.46912L11.0015 2.83232L10.6429 2.46912C10.5465 2.36962 10.447 2.27445 10.3448 2.18362C8.23352 0.308414 4.9381 0.284066 2.79519 2.19279C2.69564 2.2815 2.59948 2.37364 2.50695 2.46912C0.292525 4.75888 0.292525 8.29762 2.50695 10.5874L10.4746 18.6423C10.7502 18.9213 11.2096 18.9333 11.5006 18.669C11.5101 18.6604 11.5194 18.6515 11.5284 18.6423ZM3.16703 9.9421L11.0015 17.8624L18.833 9.94212C20.6976 8.01057 20.6967 5.04276 18.8302 3.11223C17.958 2.21367 16.7271 1.69466 15.4286 1.69242C14.1284 1.69418 12.8958 2.21321 12.022 3.11243L12.0169 3.11762L11.0015 4.14626L9.98006 3.11157C8.23868 1.31486 5.2885 1.20825 3.40929 2.88195M3.16703 9.9421C1.30223 8.01019 1.30327 5.04195 3.17014 3.11118C3.24667 3.03224 3.32653 2.95571 3.40929 2.88195"
+                    fill="#444444" />
+                  </svg>
+                </button>
+                <button class="sub-button">
+                  <svg width="18" height="17" viewBox="0 0 18 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M0 0.538467L18 0.538467V1.46154H0V0.538467ZM0 5.53847H18V6.46154H0V5.53847ZM14.9615 13.4615V16.5H14.0385V13.4615H11V12.5385H14.0385V9.50001H14.9615V12.5385H18V13.4615H14.9615ZM0 10.5385H9V11.4615H0V10.5385ZM0 15.5385H9V16.4615H0V15.5385Z"
+                    fill="#444444" />
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide product-card">
+            <div class="tags">
+              <div class="tag green">
+                Новинка
+              </div>
+              <div class="tag orange">
+                Хит продаж
+              </div>
+            </div>
+            <div class="img-block">
+              <img src="./assets/img/cond-2.png" alt="img-block">            </div>
+            <div class="title-block">
+              <div class="class">
+                Удаленное управление
+              </div>
+              <div class="name">
+                Кондиционер №1
+              </div>
+              <div class="stars-block">
+                <svg width="16" height="16" viewBox="0 0 16 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M8 0L9.79611 5.52786H15.6085L10.9062 8.94427L12.7023 14.4721L8 11.0557L3.29772 14.4721L5.09383 8.94427L0.391548 5.52786H6.20389L8 0Z"
+                    fill="#00ADEF" />
+                </svg>
+                <div class="stars">
+                  4.5
+                </div>
+              </div>
+            </div>
+            <div class="prices">
+              <div class="current-price">
+                57 990 руб.
+              </div>
+              <div class="prev-price">
+                66 000 руб.
+              </div>
+            </div>
+            <div class="flex">
+              <button class="cart-button">В корзину</button>
+              <div class="sub-buttons-container flex">
+                <button class="sub-button">
+                  <svg width="22" height="19" viewBox="0 0 22 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M11.5284 18.6423L19.4931 10.5874C21.7074 8.29786 21.7074 4.75933 19.4931 2.46981C18.4427 1.38746 16.9708 0.771622 15.4287 0.769339C14.0236 0.770898 12.6764 1.28126 11.6525 2.18965C11.5518 2.27899 11.4542 2.37218 11.36 2.46912L11.0015 2.83232L10.6429 2.46912C10.5465 2.36962 10.447 2.27445 10.3448 2.18362C8.23352 0.308414 4.9381 0.284066 2.79519 2.19279C2.69564 2.2815 2.59948 2.37364 2.50695 2.46912C0.292525 4.75888 0.292525 8.29762 2.50695 10.5874L10.4746 18.6423C10.7502 18.9213 11.2096 18.9333 11.5006 18.669C11.5101 18.6604 11.5194 18.6515 11.5284 18.6423ZM3.16703 9.9421L11.0015 17.8624L18.833 9.94212C20.6976 8.01057 20.6967 5.04276 18.8302 3.11223C17.958 2.21367 16.7271 1.69466 15.4286 1.69242C14.1284 1.69418 12.8958 2.21321 12.022 3.11243L12.0169 3.11762L11.0015 4.14626L9.98006 3.11157C8.23868 1.31486 5.2885 1.20825 3.40929 2.88195M3.16703 9.9421C1.30223 8.01019 1.30327 5.04195 3.17014 3.11118C3.24667 3.03224 3.32653 2.95571 3.40929 2.88195"
+                    fill="#444444" />
+                  </svg>
+                </button>
+                <button class="sub-button">
+                  <svg width="18" height="17" viewBox="0 0 18 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M0 0.538467L18 0.538467V1.46154H0V0.538467ZM0 5.53847H18V6.46154H0V5.53847ZM14.9615 13.4615V16.5H14.0385V13.4615H11V12.5385H14.0385V9.50001H14.9615V12.5385H18V13.4615H14.9615ZM0 10.5385H9V11.4615H0V10.5385ZM0 15.5385H9V16.4615H0V15.5385Z"
+                    fill="#444444" />
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+  <script src="./script.js"></script>
+</body>
+
+</html>
